@@ -1,0 +1,8 @@
+01:18:21 **** Rebuild of configuration Debug for project permute ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main_permute.o "..\\main_permute.cpp" 
+..\main_permute.cpp: In function 'int main(int, char**)':
+..\main_permute.cpp:55:36: error: 'memset' was not declared in this scope
+
+01:18:25 Build Finished (took 3s.737ms)
+

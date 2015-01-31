@@ -1,0 +1,10 @@
+02:51:35 **** Rebuild of configuration Debug for project prism ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o mainprism.o "..\\mainprism.cpp" 
+g++ -o prism.exe mainprism.o 
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../libmingw32.a(main.o): In function `main':
+C:\MinGW\msys\1.0\src\mingwrt/../mingw/main.c:73: undefined reference to `WinMain@16'
+collect2: ld returned 1 exit status
+
+02:51:38 Build Finished (took 2s.616ms)
+

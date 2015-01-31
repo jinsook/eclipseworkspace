@@ -1,0 +1,10 @@
+01:06:03 **** Incremental Build of configuration Debug for project Anagram ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main_anagram.o "..\\main_anagram.cpp" 
+..\main_anagram.cpp: In function 'void sortSimple(char*, int)':
+..\main_anagram.cpp:18:14: error: 'assert' was not declared in this scope
+..\main_anagram.cpp: In function 'void usage()':
+..\main_anagram.cpp:77:9: error: 'exit' was not declared in this scope
+
+01:06:08 Build Finished (took 4s.646ms)
+

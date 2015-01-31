@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="936" class="org.eclipse.ui.examples.javaeditor.JavaEditorExamplePlugin" isBundle="false" name="%pluginName" project="org.eclipse.ui.examples.javaeditor" provider="%providerName">
+		<library name="javaeditorexample.jar"/>
+		<library name="templateeditorexample.jar"/>
+	</bundle>
+</map>

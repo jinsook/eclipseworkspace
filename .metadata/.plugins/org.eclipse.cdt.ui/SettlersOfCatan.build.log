@@ -1,0 +1,14 @@
+01:08:00 **** Incremental Build of configuration Debug for project SettlersOfCatan ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main_settlercatan.o "..\\main_settlercatan.cpp" 
+..\main_settlercatan.cpp: In member function 'void Node::putNeighbor(int)':
+..\main_settlercatan.cpp:38:20: error: 'assert' was not declared in this scope
+..\main_settlercatan.cpp: In function 'void usage()':
+..\main_settlercatan.cpp:178:9: error: 'exit' was not declared in this scope
+..\main_settlercatan.cpp: In function 'int main(int, char**)':
+..\main_settlercatan.cpp:201:11: error: 'exit' was not declared in this scope
+..\main_settlercatan.cpp:206:11: error: 'exit' was not declared in this scope
+..\main_settlercatan.cpp:216:12: error: 'exit' was not declared in this scope
+
+01:08:01 Build Finished (took 503ms)
+
